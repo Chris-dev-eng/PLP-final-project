@@ -1,0 +1,10 @@
+{% autoescape off %}
+Hello, {{ name }},
+You are receiving this email because your marks
+for {{ unit }} has been recorded.
+
+You scored a total of {{ assignment_marks|add:exam_marks }} in which your assignment marks are {{ assignment_marks }} 
+and final exam  marks are {{ exam_marks }}.
+
+Thank you.
+{% endautoescape %}

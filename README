@@ -1,0 +1,17 @@
+login as student
+email student@gmail.com
+password So123456
+
+login as lecturer
+
+email staff@gmail.com
+password Lo123456
+
+login as Admin/HOD
+
+email admin@gmail.com
+password Ho123456
+
+python manage.py makemigrations && python manage.py migrate && python manage.py runserver
+
+
